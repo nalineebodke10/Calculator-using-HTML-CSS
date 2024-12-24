@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'DS-Digital Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('DS-Digital Normal'), url('DS-DIGI.woff') format('woff');
+}
+
+.Calculator-body {
+    background-color: #3d3d5c;
+    height: 490px;
+    width: 440px;
+    border: 3px solid rgb(61, 61, 61);
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+.screen {
+    background-color: #a1af77;
+    font-size: 35px;
+    text-align: right;
+    box-shadow: 1px 1px 1px 1px #a1af77;
+    display: block;
+    margin: 0px auto;
+    width: 380px;
+    margin-top: 10px;
+    padding: 5px;
+    font-family: 'DS-Digital Normal';
+}
+
+
+.power {
+    background-color: #a1af77;
+    height: 20px;
+    width: 90px;
+    display: inline-block;
+    border: 0.4px solid rgb(231, 231, 231);
+    margin: 3px 23px;
+    text-align: right;
+    color: #3d3d5c;
+    font-size: large;
+    padding: 2px;
+    margin-bottom: 15px;
+    font-family: 'DS-Digital Normal';
+}
+
+.Dual-power {
+    height: 50px;
+    width: 80px;
+    display: inline-block;
+    padding: 4px;
+    margin-top: 12px;
+    color: rgb(231, 230, 230);
+}
+
+.org-button {
+    background-color: #fd775f;
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+    color: rgb(241, 239, 239);
+    border: 1px solid #ff6348;
+    padding: 2px;
+    margin: 0px 11px;
+    cursor: pointer;
+
+}
+
+.org-button:hover {
+    box-shadow: 0px 0px 0px 2px #ff6348;
+}
+
+.button-container {
+
+    height: 320px;
+    width: 400px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.white-button {
+    background-color: rgb(187, 185, 185);
+    border: 1px solid rgb(160, 159, 159);
+    height: 35px;
+
+}
+
+.white-button:hover {
+    box-shadow: 0px 0px 0px 2px rgb(160, 159, 159);
+
+}
+
+.black-button {
+    background-color: rgb(112, 94, 94);
+    border: 1px solid rgb(134, 105, 105);
+    font-size: 20px;
+    height: 40px;
+
+}
+
+.black-button:hover {
+    box-shadow: 0px 0px 0px 2px rgb(134, 105, 105);
+}
+
+.btn {
+
+    width: 50px;
+    color: white;
+    margin: 9px 5px;
+    cursor: pointer;
+}
+
+.large-btn {
+    height: 55px;
+}
